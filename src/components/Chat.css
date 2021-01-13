@@ -1,0 +1,17 @@
+.chat {
+    display:flex;
+    justify-content:space-between;
+    margin:2em auto;
+    width:80%;
+    
+}
+
+.chat_body {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+
+.chat_timestamp {
+
+}

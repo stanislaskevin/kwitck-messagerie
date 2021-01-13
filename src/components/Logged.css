@@ -1,0 +1,13 @@
+.logged {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:0.2em 0;
+    padding-left:2em;
+}
+.logged > p {
+    padding: 0 1.4em;
+    font-weight:500;
+    font-size:0.8em;
+    text-transform:uppercase;
+}

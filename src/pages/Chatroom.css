@@ -1,0 +1,34 @@
+.chatroom {
+    margin:0 auto;
+}
+.chatroom_button {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.chatroom_button > h1 {
+    margin:1em;
+}
+
+.chatroom_button > button {
+    display:flex;
+    margin:2em;
+    border:1px solid transparent;
+    padding:1em;
+    border-radius:0.5em;
+    color:#ffffff;
+    font-weight:700;
+    background:blue;
+    font-size:0.7em;
+    text-transform: uppercase;
+}
+
+.chatroom_userLogged {
+    border-bottom:1px solid lightgray;
+    display:flex;
+}
+
+.chatroom_userLogged > h4{
+    
+}

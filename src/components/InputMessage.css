@@ -1,0 +1,58 @@
+.inputMessage {
+    width:100%;
+    border-top:1px solid lightgray;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:lightgray;
+}
+
+.inputMessage > form {
+    margin:0.5em auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+
+}
+
+.inputMessage > form > input {
+    border:1px solid transparent;
+    border-radius:1em;
+    padding:1em;
+    background:#ffffff;
+    width:80%;
+}
+
+.inputMessage > form > button{
+    border:1px solid transparent;
+    border-radius:1em;
+    padding:1em;
+    background:#ffffff;
+    width:20%;
+    margin-left:-7em;
+}
+
+.inputMessage_left {
+    margin:1em;
+}
+
+.inputMessage_right {
+    margin:1em;
+    display:flex;
+}
+
+.chat_bodyName {
+    font-weight:600;
+    padding-bottom:0.5em;
+}
+
+.chat_bodyContent {
+    color:gray;
+    font-size:0.9em;
+}
+
+.chat_timestamp {
+    font-size:0.7em;
+    color:gray;
+}
